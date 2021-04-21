@@ -1,14 +1,11 @@
 #title{
     margin-top: 3rem;
-    margin-bottom: 2rem;
     font-size: 4rem;
 }
 
 #img-div{
     margin-bottom: 3rem;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 3.7rem;
     width: 60rem;
 }
 
@@ -19,6 +16,7 @@
 #tribute-info{
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 4rem;
 }
 
 h3{

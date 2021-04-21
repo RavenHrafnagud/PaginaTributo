@@ -19,11 +19,11 @@ body{
 
 #title{
     margin-top: 2rem;
-    margin-bottom: 1rem;
     text-align: center;
     font-size: 2.5rem;
     margin-left: auto;
     margin-right: auto;
+    height: 2.5rem;
 }
 
 #img-div{
@@ -37,6 +37,8 @@ body{
 #image{
     max-width: 100%;
     display:block ;
+    height: auto;
+    margin: 0 auto;
 } 
 
 #img-caption{
