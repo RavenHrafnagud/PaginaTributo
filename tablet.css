@@ -1,0 +1,31 @@
+#title{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+#img-div{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+}
+
+#img-caption{
+    font-size: 2.5rem;
+}
+
+#tribute-info{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+h3{
+    font-size: 2.7rem;
+}
+
+p{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}

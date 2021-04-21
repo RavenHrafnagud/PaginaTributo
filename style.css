@@ -15,12 +15,11 @@ body{
 #main{
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.5rem;
 }
 
 #title{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-size: 2.5rem;
     margin-left: auto;
@@ -32,14 +31,17 @@ body{
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
+    width: 25rem;
 }
 
 #image{
-    width: 20rem;
+    max-width: 100%;
+    display:block ;
 } 
 
 #img-caption{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 #tribute-info{
@@ -53,11 +55,13 @@ h3{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.7rem;  
 }
 
 p{
     text-align: justify;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 #tribute-link{
