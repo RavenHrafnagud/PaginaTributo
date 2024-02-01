@@ -15,6 +15,10 @@ body{
 #main{
     display: flex;
     flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #title{
@@ -29,9 +33,25 @@ body{
 #img-div{
     margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10vh;
+    margin-right: 10vh;
     width: 25rem;
+
+    text-align: center;
+}
+
+@media only screen and (min-width: 457px) {
+    #img-div {
+        margin-left: 50vh;
+        margin-right: 50vh;
+    }
+}
+
+@media only screen and (min-width: 729px) {
+    #img-div {
+        margin-left: 60vh;
+        margin-right: 60vh;
+    }
 }
 
 #image{
@@ -50,6 +70,8 @@ body{
     background-color: #F0FFFF;
     margin-left: 2rem;
     margin-right: 2rem;
+
+    text-align: center;
 }
 
 h3{
